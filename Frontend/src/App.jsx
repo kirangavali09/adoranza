@@ -1,5 +1,5 @@
-import BottomActionBar from "./components/BottomActionBar"
 import Navbar from "./components/Navbar"
+import Home from "./pages/Home"
 
 
 function App() {
@@ -7,7 +7,7 @@ function App() {
     return (
     <>
         <Navbar />
-        <BottomActionBar />
+        <Home />
     </>
     )
 }
