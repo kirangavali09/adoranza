@@ -1,12 +1,13 @@
+import BottomActionBar from "./components/BottomActionBar"
+import Navbar from "./components/Navbar"
 
 
 function App() {
     
     return (
     <>
-        <div>
-            Hello Adornza
-        </div>
+        <Navbar />
+        <BottomActionBar />
     </>
     )
 }
