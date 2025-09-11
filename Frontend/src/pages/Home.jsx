@@ -19,7 +19,7 @@ const Home = () => {
                 <ProductSwiper />
             </div>
 
-            <div className="w-full px-4 lg:px-10 h-80 flex flex-wrap justify-between max-lg:gap-6 my-24">
+            <div className="w-full px-4 lg:px-10 h-80 flex flex-wrap justify-between max-lg:gap-6 my-10 lg:my-24">
                 <div className="w-full lg:w-[46%] overflow-hidden rounded-lg">
                     <img src={NEW_COLLECTION_1} className="w-full h-full object-cover transition-all duration-300 ease-in-out hover:scale-105" />
                 </div>
@@ -27,8 +27,6 @@ const Home = () => {
                     <img src={NEW_COLLECTION_2} className="w-full h-full object-cover transition-all duration-300 ease-in-out hover:scale-105" />
                 </div>
             </div>
-
-            <div className="w-full h-8 bg-slate-600"></div>
 
             <BottomActionBar />
         </>
