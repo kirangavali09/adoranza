@@ -15,7 +15,7 @@ export const SwiperNavButtons = () => {
 
 export const SwiperProductNavButtons = () => {
     return (
-        <div className="absolute -bottom-10 left-1/2 -translate-x-1/2 flex gap-2 z-10 max-sm:hidden">
+        <div className="absolute -bottom-14 left-1/2 -translate-x-1/2 flex gap-4 z-10 max-sm:hidden">
             <div className="custom-products-swiper-button-prev z-12 cursor-pointer text-3xl text-black">
                 <FaCircleChevronLeft />
             </div>

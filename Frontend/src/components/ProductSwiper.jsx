@@ -40,40 +40,40 @@ const ProductSwiper = () => {
             }} 
             className="w-full h-64 sm:h-96 md:h-96 lg:h-[30rem] cursor-pointer !static"
         >
-            <SwiperSlide className="w-56 sm:w-68 md:w-96 lg:w-4xl relative">
-                <img src={HERO_PRODUCT_IMG_1} className="w-full h-full object-cover object-top-left rounded-lg transition delay-150 duration-300 ease-in-out hover:scale-98 overflow-hidden"  alt="img1"/>
+            <SwiperSlide className="w-56 sm:w-68 md:w-96 lg:w-4xl relative overflow-hidden rounded-lg">
+                <img src={HERO_PRODUCT_IMG_1} className="w-full h-full object-cover object-top-left rounded-lg transition delay-150 duration-300 ease-in-out hover:scale-105"  alt="img1"/>
                 <div className="absolute w-4/5 h-10 lg:h-14 bg-zinc-300 bottom-10 translate-x-4 lg:translate-x-10 opacity-75 flex items-center justify-center gap-4">
                     <span className="font-bold text-md sm:text-xl text-zinc-900">Rings</span>
                     <FaArrowRight />
                 </div>
             </SwiperSlide>
             
-            <SwiperSlide className="w-56 sm:w-68 md:w-96 lg:w-4xl">
-                <img src={HERO_PRODUCT_IMG_2} className="w-full h-full object-cover object-top-left rounded-lg transition delay-150 duration-300 ease-in-out hover:scale-98 overflow-hidden"  alt="img2"/>
+            <SwiperSlide className="w-56 sm:w-68 md:w-96 lg:w-4xl overflow-hidden rounded-lg">
+                <img src={HERO_PRODUCT_IMG_2} className="w-full h-full object-cover object-top-left rounded-lg transition delay-150 duration-300 ease-in-out hover:scale-105"  alt="img2"/>
                 <div className="absolute w-4/5 h-10 lg:h-14 bg-zinc-300 bottom-10 translate-x-4 lg:translate-x-10 opacity-75 flex items-center justify-center gap-4">
                     <span className="font-bold text-md sm:text-xl text-zinc-900">Ornaments</span>
                     <FaArrowRight />
                 </div>
             </SwiperSlide>
             
-            <SwiperSlide className="w-56 sm:w-68 md:w-96 lg:w-4xl">
-                <img src={HERO_PRODUCT_IMG_3} className="w-full h-full object-cover object-top-left rounded-lg transition delay-150 duration-300 ease-in-out hover:scale-98 overflow-hidden"  alt="img3"/>
+            <SwiperSlide className="w-56 sm:w-68 md:w-96 lg:w-4xl overflow-hidden rounded-lg">
+                <img src={HERO_PRODUCT_IMG_3} className="w-full h-full object-cover object-top-left rounded-lg transition delay-150 duration-300 ease-in-out hover:scale-105"  alt="img3"/>
                 <div className="absolute w-4/5 h-10 lg:h-14 bg-zinc-300 bottom-10 translate-x-4 lg:translate-x-10 opacity-75 flex items-center justify-center gap-4">
                     <span className="font-bold text-md sm:text-xl text-zinc-900">Gems</span>
                     <FaArrowRight />
                 </div>
             </SwiperSlide>
             
-            <SwiperSlide className="w-56 sm:w-68 md:w-96 lg:w-4xl">
-                <img src={HERO_PRODUCT_IMG_4} className="w-full h-full object-cover object-top-left rounded-lg transition delay-150 duration-300 ease-in-out hover:scale-98 overflow-hidden"  alt="img4"/>
+            <SwiperSlide className="w-56 sm:w-68 md:w-96 lg:w-4xl overflow-hidden rounded-lg">
+                <img src={HERO_PRODUCT_IMG_4} className="w-full h-full object-cover object-top-left rounded-lg transition delay-150 duration-300 ease-in-out hover:scale-105"  alt="img4"/>
                 <div className="absolute w-4/5 h-10 lg:h-14 bg-zinc-300 bottom-10 translate-x-4 lg:translate-x-10 opacity-75 flex items-center justify-center gap-4">
                     <span className="font-bold text-md sm:text-xl text-zinc-900">Bracelets</span>
                     <FaArrowRight />
                 </div>
             </SwiperSlide>
             
-            <SwiperSlide className="w-56 sm:w-68 md:w-96 lg:w-4xl">
-                <img src={HERO_PRODUCT_IMG_5} className="w-full h-full object-cover object-top-left rounded-lg transition delay-150 duration-300 ease-in-out hover:scale-98 overflow-hidden"  alt="img5"/>
+            <SwiperSlide className="w-56 sm:w-68 md:w-96 lg:w-4xl overflow-hidden rounded-lg">
+                <img src={HERO_PRODUCT_IMG_5} className="w-full h-full object-cover object-top-left rounded-lg transition delay-150 duration-300 ease-in-out hover:scale-105"  alt="img5"/>
                 <div className="absolute w-4/5 h-10 lg:h-14 bg-zinc-300 bottom-10 translate-x-4 lg:translate-x-10 opacity-75 flex items-center justify-center gap-4">
                     <span className="font-bold text-md sm:text-xl text-zinc-900">Manstyle</span>
                     <FaArrowRight />
