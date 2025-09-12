@@ -8,7 +8,7 @@ const Navbar = () => {
     return (
         <>
             {/* Mobile Navbar */}
-            <div className="w-full h-16 fixed flex items-center justify-between px-4 py-2 shadow-sm z-2 bg-white">
+            <div className="w-full h-16 fixed flex items-center justify-between px-4 py-2 shadow-sm z-20 bg-white">
                 <div className="w-44">
                     <img src={Logo} className='w-full h-full object-cover' alt="Logo"/>
                 </div>

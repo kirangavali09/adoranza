@@ -15,11 +15,11 @@ export const SwiperNavButtons = () => {
 
 export const SwiperProductNavButtons = () => {
     return (
-        <div className="absolute -bottom-14 left-1/2 -translate-x-1/2 flex gap-4 z-10 max-sm:hidden">
-            <div className="custom-products-swiper-button-prev z-12 cursor-pointer text-3xl text-black">
+        <div className="absolute -bottom-10 lg:-bottom-14 left-1/2 -translate-x-1/2 flex gap-4 z-10 max-sm:hidden">
+            <div className="custom-products-swiper-button-prev z-12 cursor-pointer text-3xl lg:text-4xl text-black">
                 <FaCircleChevronLeft />
             </div>
-            <div className="custom-products-swiper-button-next z-12 cursor-pointer text-3xl text-black">
+            <div className="custom-products-swiper-button-next z-12 cursor-pointer text-3xl lg:text-4xl text-black">
                 <FaCircleChevronRight />
             </div>
         </div>
