@@ -7,6 +7,7 @@ import 'swiper/css/free-mode';
 import NEW_COLLECTION_1 from "../assets/new-collection-1.webp";
 import NEW_COLLECTION_2 from "../assets/new-collection-2.webp";
 import NewCollectionBlock from "../components/NewCollectionBlock";
+import TrustBadges from "../components/TrustBadges";
 
 const Home = () => {
 
@@ -31,6 +32,7 @@ const Home = () => {
                 </div>
             </div>
 
+            <TrustBadges />
             <BottomActionBar />
         </>
     )
